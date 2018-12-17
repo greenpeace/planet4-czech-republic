@@ -19,6 +19,7 @@ job_environments:
     HELM_RELEASE: planet4-czech-republic
     NEWRELIC_APPNAME: P4 Czech Republic Development
     WP_DB_NAME: planet4-czech_wordpress_develop
+    WP_VERSION: 5.0.1
     WP_STATELESS_BUCKET: planet4-czech-republic-stateless-develop
   release_environment: &release_environment
     APP_ENVIRONMENT: staging
