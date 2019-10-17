@@ -1,0 +1,22 @@
+{
+  "scenarios": [
+    {
+      "label": "Planet4 Czech Republic act page",
+      "url": "https://APP_HOSTNAME/APP_HOSTPATH/zapoj-se/",
+      "delay": 3000,
+      "misMatchThreshold": 0.5
+    },
+    {
+      "label": "Planet4 Czech Republic explore page",
+      "url": "https://APP_HOSTNAME/APP_HOSTPATH/zjisti-vic/",
+      "delay": 3000,
+      "misMatchThreshold": 0.5
+    },
+    {
+      "label": "Planet4 Czech Republic privacy and cookies page",
+      "url": "https://APP_HOSTNAME/APP_HOSTPATH/ochrana-osobnich-udaju/",
+      "delay": 3000,
+      "misMatchThreshold": 0.5
+    }
+  ]
+}
