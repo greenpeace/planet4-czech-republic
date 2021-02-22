@@ -1,14 +1,14 @@
 {
-	"name": "greenpeace/planet4-czech-republic",
-	"description": "Greenpeace P4 Czech Republic",
-	"license": "MIT",
-	"require": {
-		"greenpeace/planet4-child-theme-czech-republic" : "dev-master"
-	},
-	"scripts": {
-		"core:language": "wp language core install cs_CZ; wp language core activate cs_CZ",
-		"site:custom": [
-			"@core:language"
-		]
-	}
+    "name": "greenpeace/planet4-czech-republic",
+    "description": "Greenpeace P4 Czech Republic",
+    "license": "MIT",
+    "require": {
+        "greenpeace/planet4-child-theme-czech-republic" : "dev-master"
+    },
+    "scripts": {
+        "core:language": "wp language core install cs_CZ; wp language core activate cs_CZ",
+        "site:custom": [
+            "@core:language"
+        ]
+    }
 }
