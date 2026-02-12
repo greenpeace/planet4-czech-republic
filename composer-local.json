@@ -3,8 +3,7 @@
     "description": "Greenpeace P4 Czech Republic",
     "license": "MIT",
     "require": {
-        "greenpeace/planet4-master-theme" : "dev-PLANET-8095_designs-tokens-update-v1",
-        "greenpeace/planet4-child-theme-czech-republic" : "dev-fix-layout-issues"
+        "greenpeace/planet4-child-theme-czech-republic" : "dev-main"
     },
     "scripts": {
         "core:language": "wp language core install cs_CZ; wp language core activate cs_CZ",
